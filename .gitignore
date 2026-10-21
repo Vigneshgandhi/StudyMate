@@ -1,0 +1,15 @@
+# Local secrets and runtime data
+backend/.env
+backend/*.db
+backend/chat_data.json
+backend/chat_data_*.tmp
+
+# Python
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StudyMate CSRF Test</title>
+</head>
+<body>
+
+<h2>CSRF Attack Simulation</h2>
+
+<form
+  action="http://localhost:5001/api/generate-custom-prompt"
+  method="POST"
+>
+  <input
+    type="hidden"
+    name="request"
+    value="Create an unauthorized study prompt"
+  />
+
+  <button type="submit">
+    Send Forged Request
+  </button>
+</form>
+
+</body>
+</html>
